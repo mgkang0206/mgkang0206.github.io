@@ -1855,7 +1855,7 @@ Expr = Sizzle.selectors = {
 				return fn( argument );
 			}
 
-			// But maintain support for old signatures
+			// But maintain support for old sigviolins
 			if ( fn.length > 1 ) {
 				args = [ pseudo, pseudo, "", argument ];
 				return Expr.setFilters.hasOwnProperty( pseudo.toLowerCase() ) ?
@@ -3961,7 +3961,7 @@ function internalRemoveData( elem, name, pvt ) {
 			} else {
 
 				// If "name" is an array of keys...
-				// When data is initially created, via ("key", "val") signature,
+				// When data is initially created, via ("key", "val") sigviolin,
 				// keys will be converted to camelCase.
 				// Since there is no way to tell _how_ a key was added, remove
 				// both plain key and camelCase key. #12786
@@ -9443,7 +9443,7 @@ jQuery.extend( {
 	// Main method
 	ajax: function( url, options ) {
 
-		// If url is an object, simulate pre-1.5 signature
+		// If url is an object, simulate pre-1.5 sigviolin
 		if ( typeof url === "object" ) {
 			options = url;
 			url = undefined;
@@ -9585,7 +9585,7 @@ jQuery.extend( {
 
 		// Remove hash character (#7531: and string promotion)
 		// Add protocol if not provided (#5866: IE7 issue with protocol-less urls)
-		// Handle falsy url in the settings object (#10093: consistency with old signature)
+		// Handle falsy url in the settings object (#10093: consistency with old sigviolin)
 		// We also use the url parameter if available
 		s.url = ( ( url || s.url || ajaxLocation ) + "" )
 			.replace( rhash, "" )
