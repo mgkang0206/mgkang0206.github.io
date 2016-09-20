@@ -234,10 +234,10 @@ header {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: 100% 99%;
-  -moz-background-size: 100% 99%;
-  background-size: 100% 99%;
-  -o-background-size: 100% 99%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   text-align: center;
   color: #fed136;
 }
