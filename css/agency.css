@@ -46,6 +46,10 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.screenshot {
+  width: 100%;
+}
+
 .img-centered {
   margin: 0 auto;
 }
@@ -226,14 +230,14 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/Android.jpg');
+  background-image: url('../img/Android1.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   text-align: center;
   color: #fed136;
 }
@@ -729,6 +733,12 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+a#downloadLink {
+  color: #fed136;
+  margin-top: inherit;
+  font-size: 30px;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 ::-moz-selection {
   text-shadow: none;
